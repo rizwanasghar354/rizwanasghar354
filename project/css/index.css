@@ -1,0 +1,254 @@
+
+body{
+    margin: 0px;
+}
+.navv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.create_box{
+    display: flex;
+    gap: 3px;
+}
+.letter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 15px;
+   width: 15px;
+    background-color: white;
+    color: black;
+}
+.sign_h{
+    margin: 0;
+}
+.line1{
+    border: 1.5px solid blue;
+    margin: 0;
+}
+.nest{
+    
+}
+
+.btn1{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.two{
+    position: absolute;
+    color: red;
+    list-style: none;
+    background: black;
+    display: none;
+    margin: 0;
+}
+.nest:hover .two{
+    display: block;
+}
+
+video{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.cont{
+    position: relative;
+    color: tomato;
+    width: 40%;
+    margin-left: 10%;
+   
+}
+.cont h1{
+    font-size: xx-large;
+    font-size: 60px;
+    font-weight: bolder;
+   margin-bottom: 0px;
+}
+.cont h6{
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.btn2{
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    /* margin-top: 0px; */
+}
+
+.flx{
+    margin-top: 20%;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.subscribe{
+    width: 50%;
+    
+}
+.subscribe h1{
+    font-size:40px;
+}
+.subscribe li{
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+.subscribe button{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+    margin-top: 9%;
+}
+.img1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+   
+}
+.img1 img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.exp{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+  
+}
+.main-carousel{
+    margin-bottom: 50px;
+}
+
+.carousel-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  
+}
+.carousel-cell:hover{
+   
+   
+}
+.carousel-cell.is-selected {
+  
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.c1{
+    background-image: url("../images/600.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.c1 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.c2{
+    background-image: url("../images/600_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c2 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.c3{
+    background-image: url("../images/600_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c3 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.c4{
+    background-image: url("../images/600_4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c4 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.c5{
+    background-image: url("../images/600.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c5 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.links a{
+    text-decoration: none;
+    color: black;
+
+}
